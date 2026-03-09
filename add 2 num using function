@@ -1,0 +1,11 @@
+using System;
+class Program
+{
+    static void welcome(int x,int y){
+        int sum=x+y;
+        Console.WriteLine("sum="+sum);
+    }
+    static void Main(){
+        welcome(10,20);
+    }
+}
