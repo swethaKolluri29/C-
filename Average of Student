@@ -1,0 +1,12 @@
+using System;
+namespace votingUser{
+    class Program {
+        static void Main() {
+            int maths = 35;
+            int physics = 30;
+            int chemistry = 22;
+            int average = (maths+physics+chemistry)/3;
+            Console.WriteLine("The average of the student is "+average);
+        }
+    }
+}
