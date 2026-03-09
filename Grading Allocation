@@ -1,0 +1,17 @@
+using System;
+namespace Grade{
+    class Program {
+        static void Main() {
+            int e=Convert.ToInt32(Console.ReadLine());
+            if ( e >= 70){
+                Console.WriteLine(" Green ");
+            }
+            else if( e>=50 && e<70){
+                Console.WriteLine(" Amber ");
+            }
+            else{
+                Console.WriteLine("Red");
+            }
+        }
+    }
+}
